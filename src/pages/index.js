@@ -14,7 +14,7 @@ function HomepageHeader() {
     <header className={clsx('hero', styles.heroBanner)}>
       <div className={clsx("container", styles.container)}>
         <div className={clsx("text-part", styles.left)}>
-          <h1 className={clsx("hero__title", styles.title)}> Decentralized instant payment platform built on the Mixin Network </h1>
+          <h1 className={clsx("hero__title", styles.title)}> Decentralized instant payment platform built on the Mixin </h1>
           <ul className={clsx("hero__subtitle", styles.subtitle)}>
             <li className={styles.subtitle_li}>
               <span>🛡️ </span>
