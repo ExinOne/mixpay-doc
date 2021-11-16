@@ -49,7 +49,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/ExinOne/mixpay-doc',
+              href: 'https://github.com/ExinOne',
             },
           ],
         },
