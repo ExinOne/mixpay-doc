@@ -73,7 +73,7 @@ module.exports = {
           path: 'docs',
           routeBasePath: '/docs',
           // Please change this to your repo.
-          editUrl: 'https://developers.mixpay.me',
+          editUrl: 'https://github.com/ExinOne/mixpay-doc/blob/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
