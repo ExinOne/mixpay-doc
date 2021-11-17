@@ -23,12 +23,6 @@
   "features.free.text": {
     "message": " - No transaction fee."
   },
-  "features.privacy": {
-    "message": "Privacy"
-  },
-  "features.privacy.text": {
-    "message": " - End to end encrypted messages."
-  },
   "buttons.get_started": {
     "message": "Get Started"
   },

@@ -14,7 +14,7 @@ function HomepageHeader() {
     <header className={clsx('hero', styles.heroBanner)}>
       <div className={clsx("container", styles.container)}>
         <div className={clsx("text-part", styles.left)}>
-          <h1 className={clsx("hero__title", styles.title)}> Decentralized instant payment platform built on the Mixin </h1>
+          <h1 className={clsx("hero__title", styles.title)}> Instant payment platform built on Mixin Network </h1>
           <ul className={clsx("hero__subtitle", styles.subtitle)}>
             <li className={styles.subtitle_li}>
               <span>🛡️ </span>
@@ -44,13 +44,6 @@ function HomepageHeader() {
               </strong>
               <Translate>features.free.text</Translate>
             </li>
-            <li className={styles.subtitle_li}>
-              <span>🔐 </span>
-              <strong>
-                <Translate>features.privacy</Translate>
-              </strong>
-              <Translate>features.privacy.text</Translate>
-            </li>
           </ul>
           <div className={styles.buttons}>
             <Link
@@ -61,7 +54,7 @@ function HomepageHeader() {
           </div>
         </div>
         <div className={clsx("image-part", styles.right)}>
-          <img src={useBaseUrl('images/home_head.svg')} class="main-bg" />
+          <img src={useBaseUrl('images/home.png')} className="main-bg" />
         </div>
       </div>
     </header>

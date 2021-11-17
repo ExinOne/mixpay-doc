@@ -18,7 +18,7 @@ module.exports = {
       title: 'MixPay Developer',
       logo: {
         alt: 'MixPay Developer',
-        src: 'images/logo.svg',
+        src: 'images/mixpay.svg',
       },
       items: [
         {to: '/docs/introduction', label: 'Docs', position: 'left'},
