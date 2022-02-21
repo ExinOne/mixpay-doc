@@ -19,6 +19,7 @@ module.exports = {
         'easier_way/easier_way',
         'easier_way/qr_code',
         'easier_way/mixpay_supported',
+        'easier_way/get_short_link',
       ]
     },
     {
