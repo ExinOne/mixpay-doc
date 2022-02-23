@@ -8,7 +8,10 @@ module.exports = {
       items: [
         'started/getting_started',
         'started/create_transfer',
+        'started/on_chain_transfer',
         'started/get_payment_result',
+        'started/all_assets',
+        'started/all_valuation_method',
       ]
     },
     {
@@ -18,7 +21,6 @@ module.exports = {
       items: [
         'easier_way/easier_way',
         'easier_way/qr_code',
-        'easier_way/mixpay_supported',
         'easier_way/get_short_link',
       ]
     },

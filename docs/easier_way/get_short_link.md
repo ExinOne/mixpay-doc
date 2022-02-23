@@ -14,6 +14,7 @@ Request:
 | amount           | numeric | Required, Corresponding to the number of valuationUuid, for example, the current commodity value is 10 USD |
 | valuationUuid    | string  | Required, The pricing method of the payment amount supports fiat currency and cryptocurrency, and the specific supported types can be obtained in the setting interface. |
 | receiveAssetUuid | string  | Required, Cryptocurrency to be received                      |
+| payAssetUuid     | string  | Optional, Cryptocurrency to be paid                          |
 | remark           | string  | Optional, For payer. |
 | isTemp           | boolean | whether to use it only once |
 

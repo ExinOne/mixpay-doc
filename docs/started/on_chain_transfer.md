@@ -1,5 +1,5 @@
 ---
-title: Create Mixin Pay
+title: Create On-chain Transfer
 ---
 
 > POST https://mixpay.me/api/v1/transfer
@@ -27,14 +27,16 @@ Response:
     "success": true,
     "message": "",
     "data": {
-        "recipient": "recipient uuid", // MixPay's robot uuid
-        "asset": "asset uuid", // Assets to be paid by the user
-        "amount": "0.1", // The amount of assets to be paid by the user
-        "memo": "MHwwMzU1ZTRjMC1iYTNhLTRiYTYtODJjMC02MzExZTMzMmY1N2F8OWIxODBhYjYtNmFiZS0zZGMwLWExM2YtMDQxNjllYjM0YmZh",
-        "trace": "trace id", // The trace when the user pays, to get the result of payment
+        "asset": "6cfe566e-4aad-470b-8c9a-2fd35b49c68d",
+        "amount": "3.53999999",
+        "address": "eoswithmixin",
+        "memo": "34ecadd22731e070a3d3f26b0eae0ca2",
+        "trace": "fcb08a40-0e85-4de9-a8a2-7664bbe5d788",
+        "valuationSymbol": "USDT",
+        "valuation": "12",
         "price": "payAssetUuid/valuationUuid",
-        "expire": 1636444630 // Payment expiration time
+        "expire": 1640585297
     },
-    "timestampMs": 1636705653503
+    "timestampMs": 1640585177150
 }
 ````
